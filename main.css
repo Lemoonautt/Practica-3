@@ -1,5 +1,4 @@
-
-        * {
+    * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -183,6 +182,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            min-height: 500px;
         }
 
         .hero-image img {
@@ -202,6 +202,9 @@
             align-items: center;
             gap: 1rem;
             font-weight: 600;
+            font-size: 0.95rem;
+            white-space: nowrap;
+            z-index: 3;
         }
 
         .floating-card i {
@@ -210,23 +213,18 @@
         }
 
         .card-1 {
-            top: 100%;
-            right: 20%;
+            top: 10%;
+            right: 10%;
         }
 
         .card-2 {
-            bottom: 20%;
-            left: 5%;
+            bottom: 35%;
+            left: -5%;
         }
 
         .card-3 {
-            bottom: 10%;
-            right: 50%;
-        }
-
-        .card-4 {
-            top: 50%;
-            right: -5%;
+            bottom: 5%;
+            right: 20%;
         }
 
         .floating-icon {
@@ -240,16 +238,17 @@
             justify-content: center;
             color: var(--white);
             font-size: 1.5rem;
+            z-index: 1;
         }
 
         .icon-1 {
-            top: 15%;
-            left: -5%;
+            bottom: 50%;
+            left: 0%;
         }
 
         .icon-2 {
-            bottom: 30%;
-            right: 5%;
+            top: 10%;
+            right: 45%;
         }
 
         /* Seccion de Servicios */
@@ -646,5 +645,16 @@
 
             .footer-content {
                 grid-template-columns: 1fr;
+            }
+
+            .floating-card {
+                font-size: 0.8rem;
+                padding: 0.8rem 1rem;
+            }
+
+            .floating-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 1.2rem;
             }
         }
