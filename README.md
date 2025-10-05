@@ -2,6 +2,7 @@
 
 El proyecto ya cuenta con una base funcional sobre la cual trabajaremos. El objetivo es mejorar la página web añadiendo estilos, optimizaciones de SEO y mejoras de accesibilidad.
 Cada integrante del equipo deberá elegir una sección, aplicarle las mejoras necesarias (SEO, accesibilidad, diseño, entre otros) y trabajar en una rama propia para luego subir sus cambios al repositorio. 
+
 >🖼️ Nota: Para el desarrollo de cada sección se tomaron como referencia las imágenes proporcionadas en el repositorio del proyecto.
 
 ## Miembros de Equipo 
@@ -11,6 +12,8 @@ Cada integrante del equipo deberá elegir una sección, aplicarle las mejoras ne
 - Marian Celeste Gironda Chura
 - Elia Flores Bartolome
 - 
+
+> Nota: se envio invitacion a su correo proporcionado
 
 ## 📋 Descripción
 Proyecto de página web turística dividido en seis secciones principales.
