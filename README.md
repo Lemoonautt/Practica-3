@@ -11,7 +11,7 @@ Cada integrante del equipo deberá elegir una sección, aplicarle las mejoras ne
 - Luis Fernando Guarachi Apaza
 - Marian Celeste Gironda Chura
 - Elia Flores Bartolome
-- 
+- Delia Mamani Saucedo
 
 > Nota: se envio invitacion a su correo proporcionado
 
