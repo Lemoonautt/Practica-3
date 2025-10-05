@@ -475,3 +475,44 @@
             color: var(--white);
         }
 
+        /* Seccion Ofertas */
+        .offers {
+            max-width: 1400px;
+            margin: 6rem auto;
+            padding: 0 5%;
+        }
+
+        .offer-banner {
+            background: linear-gradient(135deg, #a0ebe6 0%, #7dd3c0 100%);
+            border-radius: 30px;
+            padding: 4rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .offer-content h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .offer-content p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            color: var(--text-dark);
+            opacity: 0.9;
+        }
+
+        .offer-image {
+            max-width: 600px;
+        }
+
+        .offer-image img {
+            width: 100%;
+            height: auto;
+        }
+
+    
