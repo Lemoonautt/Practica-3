@@ -56,5 +56,3 @@ Proyecto de página turística dividido en 6 secciones. Cada integrante de este 
 **👤 Responsable:** _[Tu nombre aquí]_
 
 ---
-
-## 👥 Equipo
