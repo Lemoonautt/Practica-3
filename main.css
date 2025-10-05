@@ -12,8 +12,8 @@
         }
 
         :root {
-            --primary: #2ebc9a;
-            --primary-dark: #24a07f;
+            --primary: #95e4cb;
+            --primary-dark: #12a276;
             --text-dark: #1a1a1a;
             --text-gray: #666;
             --bg-light: #f8f9fa;
@@ -87,3 +87,169 @@
             background: var(--primary-dark);
             color: var(--white);
         }
+
+        /* Seccion Hero */
+        .hero {
+            max-width: 1400px;
+            margin: 4rem auto;
+            padding: 0 5%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            min-height: 600px;
+        }
+
+        .hero-content {
+            max-width: 600px;
+        }
+
+        .explore-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #e8f7f3;
+            color: var(--primary);
+            padding: 0.6rem 1.2rem;
+            border-radius: 25px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+        }
+
+        .hero h1 .highlight {
+            color: var(--primary);
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: var(--text-gray);
+            margin-bottom: 2.5rem;
+            line-height: 1.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: var(--white);
+            padding: 1rem 2.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary);
+            padding: 1rem 2.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            border: 2px solid var(--primary);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .hero-image {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        .floating-card {
+            position: absolute;
+            background: var(--white);
+            padding: 1rem 1.5rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-weight: 600;
+        }
+
+        .floating-card i {
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+
+        .card-1 {
+            top: 100%;
+            right: 20%;
+        }
+
+        .card-2 {
+            bottom: 20%;
+            left: 5%;
+        }
+
+        .card-3 {
+            bottom: 10%;
+            right: 50%;
+        }
+
+        .card-4 {
+            top: 50%;
+            right: -5%;
+        }
+
+        .floating-icon {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 1.5rem;
+        }
+
+        .icon-1 {
+            top: 15%;
+            left: -5%;
+        }
+
+        .icon-2 {
+            bottom: 30%;
+            right: 5%;
+        }
+
+      
