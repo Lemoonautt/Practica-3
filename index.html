@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UME Travel - Explore the World</title>
+    <title>UME Travel - Explora el Mundo</title>
+    <meta name="description" content="Descubre destinos increíbles y vive experiencias únicas con UME Travel. Reservas de hoteles, vuelos y guías turísticas accesibles y fáciles de usar.">
+    <meta name="keywords" content="viajes, turismo, paquetes turísticos, hoteles, guías">
+    <meta property="og:title" content="UME Travel - Explora el Mundo">
+    <meta property="og:description" content="Descubre destinos increíbles y vive experiencias únicas con UME Travel">
+    <meta property="og:image" content="assets/1.png">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <nav>
-            <div class="logo">
-                <span>UME</span>
-                <span class="logo-text">Travel</span>
+     <header role="banner">
+        <nav role="navigation" aria-label="Menú principal">
+            <div class="logo" aria-label="Logotipo de UME Travel">
+                <span aria-hidden="true">UME</span>
+                <span class="logo-text" aria-hidden="true">Travel</span>
             </div>
             <ul class="nav-links">
-                <li><a href="#home" class="active">Inicio</a></li>
-                <li><a href="#explore">Explorar</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#booking">Reservas</a></li>
-                <li><a href="#relax">Relax</a></li>
-                <li><a href="#signup" class="sign-up-btn">Registrarse</a></li>
+                <li><a href="#home" class="active" aria-current="page" aria-label="Ver Inicio">Inicio</a></li>
+                <li><a href="#explore" aria-label="Ver demostración del sitio web">Explorar</a></li>
+                <li><a href="#services"aria-label="Ver servicios">Servicios</a></li>
+                <li><a href="#booking" aria-label="Ver Reservas">Reservas</a></li>
+                <li><a href="#relax" aria-label="Ver relax">Relax</a></li>
+                <li><a href="#signup" class="sign-up-btn" aria-label="Registrarse">Registrarse</a></li>
             </ul>
         </nav>
     </header>
@@ -30,21 +36,21 @@
     <section class="hero" id="home">
         <div class="hero-content">
             <div class="explore-badge">
-                <i class="fas fa-globe"></i>
+                <i class="fas fa-globe"> </i>
                 ¡Explora el mundo!
             </div>
             <h1>Explora el Mundo, <span class="highlight">Un Viaje</span> a la Vez.</h1>
             <p>Descubre destinos increíbles y vive experiencias únicas con nuestros paquetes de viaje personalizados. Tu próxima aventura comienza aquí.</p>
             <div class="hero-buttons">
-                <a href="#" class="btn-primary">Comenzar</a>
-                <a href="#" class="btn-secondary">
+                <a href="#" class="btn-primary" aria-label="Comenzar con la planificacion de su viaje">Comenzar</a>
+                <a href="#" class="btn-secondary" aria-label="Ver demostración del sitio web">
                     <i class="fas fa-play"></i>
                     Ver Demo
                 </a>
             </div>
         </div>
         <div class="hero-image">
-            <img src="assets/1.png" alt="Travel Adventure">
+            <img src="assets/1.png" alt="Persona sentada sorprendida de las ofertas">
             <div class="floating-card card-1">
                 <i class="fas fa-hotel"></i>
                 <span>Reserva de Hotel</span>
@@ -66,40 +72,60 @@
         </div>
     </section>
 
-  <!-- Seccion de Servicios -->
-    <section class="services" id="services">
+    <!-- Seccion de Servicios -->
+    <section class="services" id="services" aria-labelledby="services-title">
         <div class="section-header">
-            <h2>Nuestros Servicios Expertos de <span class="highlight">Viajes</span></h2>
-            <p>Ofrecemos una amplia gama de servicios para hacer de tu viaje una experiencia inolvidable. Desde la planificación hasta el último detalle de tu aventura.</p>
+            <h2 id="services-title">
+                Nuestros Servicios Expertos de <span class="highlight">Viajes</span>
+            </h2>
+            <p>
+                Ofrecemos una amplia gama de servicios para hacer de tu viaje una experiencia inolvidable. Desde la planificación hasta el último detalle de tu aventura.
+            </p>
         </div>
         <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon">
+            <div class="service-card" tabindex="0">
+                <div class="service-icon" aria-hidden="true">
                     <i class="fas fa-cloud-sun"></i>
                 </div>
-                <h3>Clima Calculado</h3>
-                <p>Información meteorológica precisa para planificar tu viaje en el momento perfecto.</p>
+                <h3>
+                    Itinerarios a tu Medida
+                </h3>
+                <p>
+                    Creamos planes de viaje personalizados para que aproveches al máximo cada día y cada lugar que visites.
+                </p>
             </div>
-            <div class="service-card">
-                <div class="service-icon">
+            <div class="service-card" tabindex="0">
+                <div class="service-icon" aria-hidden="true">
                     <i class="fas fa-microphone"></i>
                 </div>
-                <h3>Eventos Locales</h3>
-                <p>Descubre festivales, conciertos y eventos culturales en cada destino.</p>
+                <h3>
+                    Eventos Locales
+                </h3>
+                <p>
+                    Descubre festivales, conciertos y eventos culturales en cada destino.
+                </p>
             </div>
-            <div class="service-card">
-                <div class="service-icon">
+            <div class="service-card" tabindex="0">
+                <div class="service-icon" aria-hidden="true">
                     <i class="fas fa-plane-departure"></i>
                 </div>
-                <h3>Mejores Vuelos</h3>
-                <p>Encuentra las mejores ofertas en vuelos para tu próximo destino.</p>
+                <h3>
+                    Vuelos y transporte
+                </h3>
+                <p>
+                    Encuentra las mejores ofertas en vuelos y transporte para tu próximo destino.
+                </p>
             </div>
-            <div class="service-card">
-                <div class="service-icon">
+            <div class="service-card" tabindex="0">
+                <div class="service-icon" aria-hidden="true">
                     <i class="fas fa-cog"></i>
                 </div>
-                <h3>Personalización</h3>
-                <p>Personalizamos cada viaje según tus preferencias y necesidades.</p>
+                <h3>
+                    Viajes Personalizados
+                </h3>
+                <p>
+                    Adaptamos tu viaje a lo que más te gusta: escapadas románticas, vacaciones en familia o aventuras emocionantes.
+                </p>
             </div>
         </div>
     </section>
