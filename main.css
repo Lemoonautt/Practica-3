@@ -405,7 +405,7 @@
 
         .destination-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.18);
         }
 
         .destination-image {
@@ -431,7 +431,7 @@
         }
 
         .destination-content h3 {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             margin-bottom: 0.5rem;
             color: var(--text-dark);
         }
@@ -448,13 +448,13 @@
         }
 
         .price {
-            font-size: 1.8rem;
-            font-weight: 700;
+            font-size: 0.85rem;
+            font-weight: 500;
             color: var(--text-dark);
         }
 
         .price span {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             font-weight: 400;
             color: var(--text-gray);
         }
