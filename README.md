@@ -26,7 +26,7 @@ Cada integrante debe seleccionar una sección, colocar su nombre y desarrollar l
 ### 1. Topbar y Seo
 ![Topbar](docs/topbar.png)
 
-**👤 Responsable:** _[Tu nombre aquí]_
+**👤 Responsable:** _[Luis Fernando Guarachi Apaza]_
 
 ---
 
@@ -54,13 +54,13 @@ Cada integrante debe seleccionar una sección, colocar su nombre y desarrollar l
 ### 5. Servicios
 ![Servicios](docs/servicios.png)
 
-**👤 Responsable:** _[Tu nombre aquí]_
+**👤 Responsable:** _Marian Celeste Gironda Chura_
 
 ---
 
 ### 6. Footer
 ![Footer](docs/footer.png)
 
-**👤 Responsable:** _[Tu nombre aquí]_
+**👤 Responsable:** _[Delia Mamani Saucedo]_
 
 ---
