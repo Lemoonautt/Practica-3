@@ -26,7 +26,7 @@ Cada integrante debe seleccionar una sección, colocar su nombre y desarrollar l
 ### 1. Topbar y Seo
 ![Topbar](docs/topbar.png)
 
-**👤 Responsable:** _[Tu nombre aquí]_
+**👤 Responsable:** _[Luis Fernando Guarachi Apaza]_
 
 ---
 
