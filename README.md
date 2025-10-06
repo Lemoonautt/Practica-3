@@ -54,7 +54,7 @@ Cada integrante debe seleccionar una sección, colocar su nombre y desarrollar l
 ### 5. Servicios
 ![Servicios](docs/servicios.png)
 
-**👤 Responsable:** _[Tu nombre aquí]_
+**👤 Responsable:** _Marian Celeste Gironda Chura_
 
 ---
 
