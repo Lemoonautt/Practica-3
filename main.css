@@ -326,12 +326,12 @@
             color: #444;
             line-height: 1.6;
         }
-        
+
         .service-card:focus {
             outline: 3px solid var(--primary);
             outline-offset: 6px;
             transform: translateY(-10px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+            box-shadow: 0 15px 40px rgba(255, 1, 1, 0.1);
         }
         
 
