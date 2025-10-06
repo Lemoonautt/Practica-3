@@ -40,7 +40,7 @@ Cada integrante debe seleccionar una sección, colocar su nombre y desarrollar l
 ### 3. Destinos
 ![Destinos](docs/destinos.png)
 
-**👤 Responsable:** _[Tu nombre aquí]_
+**👤 Responsable:** _[ELIA FLORES BARTOLOME]_
 
 ---
 
