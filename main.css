@@ -327,7 +327,7 @@
             line-height: 1.6;
         }
 
-        /* Seccion Destinos */
+        /* Seccion Destinos .......................*/
         .destinations {
             max-width: 1400px;
             margin: 6rem auto;
@@ -402,8 +402,8 @@
 
         .destination-image {
             position: relative;
-             height: hidden;
-            overflow: 250px;
+             height: 250px;
+            overflow: hidden;
            
         }
 
