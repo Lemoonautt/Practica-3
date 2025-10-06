@@ -61,6 +61,6 @@ Cada integrante debe seleccionar una sección, colocar su nombre y desarrollar l
 ### 6. Footer
 ![Footer](docs/footer.png)
 
-**👤 Responsable:** _[Tu nombre aquí]_
+**👤 Responsable:** _Delia Mamani Saucedo_
 
 ---
