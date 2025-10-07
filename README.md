@@ -14,7 +14,8 @@ Cada integrante del equipo deberá elegir una sección, aplicarle las mejoras ne
 - Delia Mamani Saucedo
 
 > Nota: se envio invitacion a su correo proporcionado
-
+> Importante tomamos de referencia las siguientes imagenes para el desarrollo de la pagina
+ 
 ## 📋 Descripción
 Proyecto de página web turística dividido en seis secciones principales.
 Cada integrante debe seleccionar una sección, colocar su nombre y desarrollar las mejoras correspondientes.
@@ -33,7 +34,7 @@ Cada integrante debe seleccionar una sección, colocar su nombre y desarrollar l
 ### 2. Banner Principal
 ![Banner](docs/banner.png)
 
-**👤 Responsable:** _[Tu nombre aquí]_
+**👤 Responsable:** _[Limberg Edgar Montes Tancara]_
 
 ---
 
