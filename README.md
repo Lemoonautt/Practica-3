@@ -14,7 +14,7 @@ Cada integrante del equipo deberá elegir una sección, aplicarle las mejoras ne
 - Delia Mamani Saucedo
 
 > Nota: se envio invitacion a su correo proporcionado
-> Importante tomamos de referencia las siguientes imagenes para el desarrollo de la pagina
+> Importante tomamos de referencia las siguientes imagenes para el desarrollo de la pagina fuente https://www.behance.net/gallery/233874655/Travel-Landing-page-UI-Design?tracking_source=search_projects|Travel+Website&l=15
  
 ## 📋 Descripción
 Proyecto de página web turística dividido en seis secciones principales.
@@ -48,7 +48,7 @@ Cada integrante debe seleccionar una sección, colocar su nombre y desarrollar l
 ### 4. Ofertas
 ![Ofertas](docs/ofertas.png)
 
-**👤 Responsable:** _[Tu nombre aquí]_
+**👤 Responsable:** _[Limberg Edgar Montes Tancara]_
 
 ---
 
